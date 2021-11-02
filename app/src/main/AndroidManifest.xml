@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fmaldonado.sandbox">
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +10,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sandbox">
+        <activity
+            android:name=".projects.oldDesign.OldDesign"
+            android:exported="true"
+            android:theme="@android:style/Theme.Holo" />
+        <activity
+            android:name=".projects.nativeDialog.NativeDialog"
+            android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault" />
         <activity
             android:name=".projects.youtubeLayout.YoutubeLayout"
             android:exported="true" />
